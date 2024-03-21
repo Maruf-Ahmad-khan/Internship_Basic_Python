@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #3c86ae;
+    }
+    header {
+     background-color: #333;
+     color: #fff;
+     padding: 20px;
+     text-align: center;
+   }
+   
+   nav {
+     background-color: #f4f4f4;
+     padding: 10px;
+   }
+   
+   nav ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+   }
+   
+   nav ul li {
+     display: inline;
+     margin-right: 10px;
+   }
+   
+   nav ul li a {
+     text-decoration: none;
+     color: #333;
+     padding: 5px;
+     section {
+          padding: 20px;
+        }
+     }
+        
+        footer {
+          background-color: #333;
+          color: #fff;
+          padding: 20px;
+          text-align: center;
+        }
+        
+        .container {
+          max-width: 800px;
+          margin: 0 auto;
+          padding: 20px;
+          background-color: #fff;
+          border-radius: 5px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          margin-top: 20px;
+        }
+        
+        .project {
+          margin-bottom: 20px;
+          .project h3 {
+               margin-bottom: 10px;
+             }
+          }
+             
+             .project p {
+               margin-bottom: 5px;
+             }
+           </style>
+         </head>
+         <body>
+           <header>
+             <h1>My Portfolio</h1>
+           </header>
+           <nav>
+               <ul>
+                 <li><a href="#about">About</a></li>
+                 <li><a href="#projects">Projects</a></li>
+                 <li><a href="#contact">Contact</a></li>
+               </ul>
+             </nav>
+             
+             <section id="about">
+               <div class="container">
+                 <h2>About Me</h2>
+                 <p>I am a web developer with experience in HTML, CSS, and JavaScript. I love creating beautiful and functional websites.</p>
+               </div>
+             </section>
+             <section id="projects">
+               <div class="container">
+                 <h2>Projects</h2>
+                 <div class="project">
+                   <h3>Project 1</h3>
+                   <p>This is the description of project 1.</p>
+                 </div>
+                 <div class="project">
+                   <h3>Project 2</h3>
+                   <p>This is the description of project 2.</p>
+                 </div>
+               </div>
+             </section>
+             
+             <section id="contact">
+               <div class="container">
+                 <h2>Contact Me</h2>
+                 <form>
+                   <div class="form-group">
+                     <label for="name">Name</label>
+                     <input type="text" id="name" name="name" placeholder="Enter your name">
+                   </div>
+                   <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+                  </div>
+                  <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Enter your message"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <button type="submit">Send Message</button>
+                  </div>
+                </form>
+              </div>
+            </section>
+            
+            <footer>
+              <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+            </footer>
+            
+            <script>
+              // Add any JavaScript code here if needed
+            </script>
+          </body>
+          </html>           
